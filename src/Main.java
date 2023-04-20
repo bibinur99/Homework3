@@ -113,7 +113,7 @@ public class Main {
         short losPerDayMax = 500;
         int daysIfMin = (weightToLoose * 1000) / losPerDayMin;
         int daysIfMax = (weightToLoose * 1000) / losPerDayMax;
-        double daysAver = (daysIfMin + daysIfMax) /2;
+        int daysAver = (daysIfMin + daysIfMax) /2;
         System.out.println("Days required with min speed" + " " + daysIfMin);
         System.out.println("Days required with max speed" + " " + daysIfMax);
         System.out.println("Days required with average speed" + " " + daysAver);
